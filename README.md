@@ -2,7 +2,7 @@
 
 This repository gathers the datasets access of the Digital Twin for the Notre-Dame de Paris cathedral collapsed arch reconstruction for the purpose of Open Science dataset publishing. The corresponding three datasets are :
 
-1. [Reconstruction dataset](### Reconstruction Dataset)
+1. [Reconstruction dataset](#anchors-in-markdown)
 2. [Hybrid Hypothesis 3d viewer](#anchors-in-markdown)
 3. [Archeological remains viewer](#anchors-in-markdown)
 
