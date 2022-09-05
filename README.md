@@ -2,7 +2,7 @@
 
 This repository gathers the datasets access of the Digital Twin for the Notre-Dame de Paris cathedral collapsed arch reconstruction for the purpose of Open Science dataset publishing. The corresponding three datasets are :
 
-1. [Reconstruction dataset](#anchors-in-markdown)
+1. [Reconstruction dataset](### Reconstruction Dataset)
 2. [Hybrid Hypothesis 3d viewer](#anchors-in-markdown)
 3. [Archeological remains viewer](#anchors-in-markdown)
 
@@ -33,19 +33,18 @@ The graph-structured RDF dataset is modeled using pattern-based modeling. Thus, 
 
 The CIDOC-CRM (ISOxxx) is employed as an ontological basis in its Erlangen version for the rdf-graph, it relies on the following ontologies :
 
-| prefix | full name | uri | description |
+| prefix | full name | namespace | description |
 |---|---|---|---|
 | ecrm | Erlangen CRM 211015 | http://erlangen-crm.org/211015/ | Erlangen CRM is an OWL implementation of the CIDOC CRM v7.1.1 |
-| crmsci | CIDOC CRM sci |  |  |
-| uo | Units of Measure Ontology |  |  |
+| crmsci | CIDOC CRM sci | http://www.cidoc-crm.org/cidoc-crm/CRMsci/ | The Scientific Observation Model (CRMsci) is a formal ontology intended to be used as a global schema for integrating metadata about scientific observation, measurements and processed data in descriptive and empirical sciences |
+| uo | Units of Measure Ontology | http://www.ontology-of-units-of-measure.org/resource/om-2/ | The Ontology of units of Measure (OM) 2.0 models concepts and relations important to scientific research. It has a strong focus on units, quantities, measurements, and dimensions. |
 
 And the following thesauruses :
 
 | prefix | full name | uri | description |
 |---|---|---|---|
 | aat | Art & Architecture Thesaurus | https://www.getty.edu/research/tools/vocabularies/aat/ | The Getty Art & Architecture Thesaurus© (AAT) is a structured vocabulary for describing and indexing the visual arts and architecture. |
-| th | notredamethesaurus |  |  |
-| xxx | xxx |  |  |
+| th | Thésaurus nDame | https://frollo.notre-dame.science/opentheso/?idt=th13 | The nDame thesaurus hosts the vocabularies for the Notre Dame de Paris scientific workgroups |
 
 The patterns employed to describe the are : [pattern list]. The exhaustive description is published online at : http://reperage.map.cnrs.fr/patterns
 
