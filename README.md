@@ -1,23 +1,23 @@
 # Datasets NDP-Collapsed Arch
+This repository gathers the datasets access of the Digital Twin for the _Notre-Dame de Paris Cathedral Collapsed Arch Reconstruction_ for the purpose of Open Science dataset publishing. The corresponding three datasets are :
 
-This repository gathers the datasets access of the Digital Twin for the Notre-Dame de Paris cathedral collapsed arch reconstruction for the purpose of Open Science dataset publishing. The corresponding three datasets are :
+1. [Reconstruction dataset](#reconstruction-dataset)
+2. [Hybrid Hypothesis 3d viewer](#hybrid-hypothesis-3d-viewer)
+3. [Archeological remains viewer](#archeological-remains-viewer)
 
-1. [Reconstruction dataset](#nchors-in-markdown)
-2. [Hybrid Hypothesis 3d viewer](#anchors-in-markdown)
-3. [Archeological remains viewer](#anchors-in-markdown)
+![Notre Dame de Paris point cloud and hybrid hypothesis](https://user-images.githubusercontent.com/104318232/197739328-ec665a8a-76dc-4fa9-995b-c48642071e45.png)
+*Screenshot of the last hybrid hypothesis for Notre-Dame de Paris Cathedral Collapsed Arch Reconstruction ((c)V. Abergel, A.Gros)*
 
 ## Liminary
-Wip...
+The Digital Twin application is framed by the [Scientific Site for Notre Dame de Paris Cathedral](https://www.notre-dame.science/), more specifically the "Stone" and "Digital Ecosystem" workgroups. Its engineering is a part of the [REPERAGE Project](http://www.sciences-patrimoine.org/projet/reperage/), where physical and digital methods for hypothesis building and reconstruction have met in a coherent assembly.
 
 ## Datasets
+Please, note that due to the embargo on data during the Notre-Dame de Paris reconstruction period, access to the viewers is by reasoned request in accordance with the current data policy.
+
 ### Reconstruction Dataset
 The reconstruction dataset is shared as a table `reconstruction-dataset-1f.xlsx` and graph-structured RDF data `reconstruction-dataset-1f.ttl` using CIDOC-CRM (ISOxxx) as an ontological basis.
 
-The collected data relates to the two study assets and the two study processes. They stem from the physical elements and their linked digital elements (measures, models, etc.). Until the full disclosure of the lapidary reports and Notre Dame de Paris cathedral datas, the provided information are limited to the one essential for reproducibility of the Digital Twin Experiment and REPERAGE project.
-
-The study assets are the nave collapsed transverse arch, and the corresponding voussoir of which it is composed.
-
-The study processes are the physical anastylosis observations and solutions, and the milestone reconstruction hypothesis depending on the chosen methodology.
+The collected data relates to the two study assets and the two study processes. They stem from the physical elements and their linked digital elements (measures, models, etc.). Until the full disclosure of the lapidary reports and Notre Dame de Paris cathedral datas, the provided information are limited to the ones essential for reproducibility of the Digital Twin Experiment and REPERAGE project. The study assets are the nave collapsed transverse arch, and the corresponding voussoir of which it is composed. The study processes are the physical anastylosis observations and solutions, and the milestone reconstruction hypothesis depending on the chosen methodology.
 
 
 #### Table `reconstruction-dataset-1f.xslx`
@@ -46,20 +46,16 @@ And the following thesauruses :
 | aat | Art & Architecture Thesaurus | https://www.getty.edu/research/tools/vocabularies/aat/ | The Getty Art & Architecture Thesaurus© (AAT) is a structured vocabulary for describing and indexing the visual arts and architecture. |
 | th | Thésaurus nDame | https://frollo.notre-dame.science/opentheso/?idt=th13 | The nDame thesaurus hosts the vocabularies for the Notre Dame de Paris scientific workgroups |
 
-The patterns employed to describe the are : [pattern list]. The exhaustive description is published online at : http://reperage.map.cnrs.fr/patterns
+<!-- The patterns employed to describe the are : [pattern list]. The exhaustive description is published online at : http://reperage.map.cnrs.fr/patterns -->
 
 
 ### Hybrid Hypothesis 3d viewer
 The hybrid hypothesis is the resulting solution from the Digital Twin experiment issued from the assembly of the processes (i.e. physical anastylosis, reverse engineering, REPERAGE photogrammetric-based spatio-temporal tracking, operational research).
 
-In addition to its _dict-like_ publication presented in the reconstruction dataset as the last milestone hypothesis, this hypothesis is visualisable in the [3d viewer based](https://www.notre-dame.science/plateforme-de-centralisation-des-donnees/) on [Potree library](https://github.com/potree/potree), directly on the pre-disaster TLS point cloud : https://nd.aioli.map.cnrs.fr:42000/index.php#
-
-#### Steps for visualization
-Wip...
+The last hypothesis described in the table and graph is visualisable in the [3d viewer based](https://www.notre-dame.science/plateforme-de-centralisation-des-donnees/) on [Potree library](https://github.com/potree/potree), directly on the pre-disaster TLS point cloud. Steps for the visualisation are : a) in _Contenus de la scène_, check _Restitutions_ and uncheck _Charpente_ ; b) Pick (double-click) a reference slot from the list _Références F29F30_ or a claveau from the list _Claveaux Numérisés_ ; c) Orbit and pan the camera around the reconstruction hypothesis with left and right click ; d) Advanced visualization are available on the left-pane menu.
 
 ### Archeological remains viewer
-In this study, the archeological remains seen in a reconstruction perspective as the voussoirs composing the collapsed transverse arch. The 3d viewer is based on [3D-HOP app](https://github.com/cnr-isti-vclab/3DHOP) : http://
-
+In this study, the archeological remains seen in a reconstruction perspective as the voussoirs composing the collapsed transverse arch. The 3d viewer is based on [3D-HOP app](https://github.com/cnr-isti-vclab/3DHOP). 
 
 
 ## Acknowledgements
