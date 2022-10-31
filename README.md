@@ -1,5 +1,5 @@
 # Datasets NDP-Collapsed Arch
-This repository gathers the datasets access of the Digital Twin for the _Notre-Dame de Paris Cathedral Collapsed Arch Reconstruction_ for the purpose of Open Science dataset publishing. The corresponding three datasets are :
+This repository gathers the datasets access of the Digital Twin for the _Notre-Dame de Paris Cathedral Collapsed Arch Reconstruction_ for the purpose of Open Research Data (ORD) publishing. The corresponding three datasets are :
 
 1. [Reconstruction dataset](#reconstruction-dataset)
 2. [Hybrid Hypothesis 3d viewer](#hybrid-hypothesis-3d-viewer)
